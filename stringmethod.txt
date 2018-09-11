@@ -1,0 +1,101 @@
+public class stringmethodsword {
+
+	public static void main(String[] args) {
+		String str1="renuka";
+		String str2=new String("katta");
+		String str3="venkata";
+		String st="RENUKA";
+		String so=new String("renuka");
+		String n=" renuka@ ";
+		
+		System.out.println("for comparing");
+		System.out.println(str1==so);
+		System.out.println(str2==so);
+		System.out.println(str1.equals(so));
+     
+		int ch=str1.length();
+		System.out.println(ch);
+		  
+		char ch1=str1.charAt(3);
+		System.out.println(ch);
+		
+		int ind=str2.lastIndexOf("t");
+		System.out.println(ind);
+		
+		int ind1=str3.indexOf("t");
+		System.out.println(ind1);
+		  
+		String sr=str1.toUpperCase();
+		System.out.println(sr);
+		
+		String sr2=str1.toLowerCase();
+		System.out.println(sr2);
+		  
+		String sr3=str2.substring(2);
+		System.out.println(sr3);
+		
+		String sr4=str3.substring(2,4);
+		System.out.println(sr4);
+		
+	    int ind3=str2.indexOf("xyz");
+		System.out.println(ind3);
+		
+		int ind4=str2.indexOf("ren");
+		System.out.println(ind4);
+		  
+		boolean b=str3.contains("kat");
+		System.out.println(b);
+		
+		String s=str2.replace('k','a');
+		System.out.println(s);
+		 
+		String s1=str2.replace("ke","a2");
+		System.out.println(s1);
+		
+		String s2=str1.replace("renu","mouni");
+		System.out.println(s2);
+		  
+		//String [] a1=str2.split("t");
+		//System.out.println(a1);
+		
+		if(str1.equals(str2))
+		{
+			System.out.println("equal");
+		}
+		else 
+			System.out.println("not equal");
+		
+		 
+		System.out.println("concatination");
+		
+		String s10=str1+str2;
+		System.out.println(s10);
+		
+		String s11=str1+32+32;
+		System.out.println(s11);
+		
+		String s12=32+34+str1;
+		System.out.println(s12);
+		
+		boolean s15=str1.equalsIgnoreCase("reNuka");
+		System.out.println(s15);
+		
+		boolean s16=str1.equals("reNuka");
+		System.out.println(s16);
+		
+		String s18=n.trim();
+		System.out.println(s18);
+		
+		
+		
+		
+		}
+		
+		
+	
+		
+		
+		
+		
+		
+	}
